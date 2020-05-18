@@ -5,7 +5,7 @@
     "test": "npm run start & cypress run", 
     "cy:start": "npm run start", 
     "cy:run": "cypress run", 
-    "test:e2e": "NODE_ENV=test start-server-and-test cy:start cy:run",
+    "test:e2e": "NODE_ENV=test start-server-and-test cy:start cy:run"
   },
   "dependencies": {
     "director": "^1.2.0",
